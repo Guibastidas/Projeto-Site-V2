@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/login.css">
+    <title>Área de Login</title>
+</head>
+<script src="js/javascript-login.js"></script>
+<body>
+    <div class="login-page">
+        <div class="logo-image">
+            <img src="imagens/logo-serviço.png" alt="Logo Serviço Social">
+        </div>
+        <h1>Serviço Social</h1>
+        <form action="">
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Digite seu usuário" maxlength="15px" required name="usuario">
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="senha" placeholder="Digite sua senha" maxlength="8px" required name="password">
+            <a href="#" id="forgot-password">Esqueceu a senha?</a>
+            <input type="submit" value="Entrar" onclick="logar(); return false">
+        </form>
+        <div class="create-container">
+            <p>Não tem cadastro? <a href="#">Crie sua conta</a></p>
+        </div> 
+    </div>
+</body>
+</html>
