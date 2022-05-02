@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/cadastro.css">
+    <title>Área de Cadastro</title>
+</head>
+<script src="js/javascript-login.js"></script>
+<body>
+    <div class="cadastro-page">
+        <div class="logo-image">
+            <img src="imagens/logo-serviço.png" alt="Logo Serviço Social">
+        </div>
+        <h1>Serviço Social</h1>
+        <form action="">
+            <label id="labelcodigo" for="codigo">Código de cadastro</label>
+            <input type="text" name="codigo" id="codigo" placeholder="Digite o seu codigo" maxlength="10px" required name="codigo">
+            <label id="labelemail" for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite aqui seu e-mail" required name="email">
+            <input type="email" name="email" id="email" placeholder="Confirme seu email" required name="email">
+            <label id="labelpassword" for="password">Senha</label>
+            <input type="password" name="password" id="senha" placeholder="Digite sua senha" maxlength="8px" required name="password">
+            <input type="password" name="password" id="senha" placeholder="Confirme sua senha" maxlength="8px" required name="password">
+            <input type="submit" value="Cadastrar" onclick="cadastrar()">
+        </form>
+        <div class="login-container">
+            <p>Já tem cadastro?<a href="login.html"> Faça seu login</a></p>
+        </div> 
+    </div>
+</body>
+</html>
