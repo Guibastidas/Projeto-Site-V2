@@ -49,18 +49,18 @@ a:hover {
 
 .cadastro-page {
     background-color: #ffffff;
-    width: 380px;
-    height: 540px;
+    width: 400px;
+    height: 550px;
     margin: auto;
     padding: 25px;
-    margin-top: 8vh;
+    margin-top: 5vh;
     border-radius: 8%;
     text-align: center;
 }
 
 .cadastro-page .logo-image img {
     height: 180px;
-    margin-top: -30px;
+    margin-top: -35px;
     margin-bottom: -15px;
 }
 
@@ -98,24 +98,24 @@ input:focus {
     border-bottom: 2px solid var(--cor3);
 }
 
-
-input[type="submit"] {
-    text-align: center;
-    text-transform: uppercase;
+button {
+    background-color: transparent;
+    border: 1px solid var(--cor4);
+    padding: 7px;
+    width: 100px;
     font-weight: bold;
     font-size: 0.8em;
-    border: none;
-    height: 20px;
-    border-radius: 20px;
-    margin-top: 20px;
-    color: #ffffff;
-    background-color: var(--cor4);
+    margin-top: 5px;
+    margin-bottom: -5px;
+    border-radius: 5px;
     cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
 }
 
-input[type="submit"]:hover {
-    background-color: #41c447;
-    transition: 0.5s;
+button:hover {
+    background-color: var(--cor4);
+    color: rgb(0, 0, 0);
 }
 
 .login-container > p {
