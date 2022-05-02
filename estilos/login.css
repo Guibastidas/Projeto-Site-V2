@@ -113,18 +113,23 @@ input:focus {
     font-size: 0.7em;
 }
 
-input[type="submit"] {
-    text-align: center;
-    text-transform: uppercase;
+button {
+    background-color: transparent;
+    border: 1px solid var(--cor4);
+    padding: 7px;
+    width: 100px;
     font-weight: bold;
     font-size: 0.8em;
-    border: none;
-    height: 20px;
-    border-radius: 20px;
-    margin-top: 20px;
-    color: #ffffff;
-    background-color: var(--cor4);
+    margin-top: 10px;
+    border-radius: 5px;
     cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+button:hover {
+    background-color: var(--cor4);
+    color: rgb(0, 0, 0);
 }
 
 input[type="submit"]:hover {
