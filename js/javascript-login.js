@@ -4,7 +4,7 @@ function logar() {
     let senha = document.getElementById('senha').value;
 
     console.log('usuario');
-    if( usuario == 'admin' && senha == 'admin'){
+    if( usuario == 'matheus' && senha == 'admin'){
         location.href = "pagina-principal.html";
     }else{
         alert('Usuario ou senha incorretos');
