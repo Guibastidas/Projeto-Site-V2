@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="estilos/cadastro.css">
     <title>Área de Cadastro</title>
 </head>
-<script src="js/javascript-login.js"></script>
+<script src="js/cadastro.js"></script>
 <body>
     <div class="cadastro-page">
         <div class="logo-image">
@@ -15,16 +15,16 @@
         </div>
         <h1>Serviço Social</h1>
         <form action="">
-            <label for="usuario">Usuario</label>
-            <input type="text" name="usuario" id="usuario" placeholder="Digite o seu usuario" maxlength="10px" required name="usuario">
+            <label id="labelusuario" for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Digite o seu usuario" maxlength="10px" required>
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="Digite aqui seu e-mail" required name="email">
-            <input type="email" name="email" id="email" placeholder="Confirme seu email" required name="email">
+            <input type="email" name="email" id="email" placeholder="Digite aqui seu e-mail" required>
+            <input type="email" name="email" id="email" placeholder="Confirme seu email" required>
             <label for="password">Senha</label>
-            <input type="password" name="password" id="senha" placeholder="Digite sua senha" maxlength="8px" required name="password">
-            <input type="password" name="password" id="senha" placeholder="Confirme sua senha" maxlength="8px" required name="password">
+            <input type="password" name="password" id="senha" placeholder="Digite sua senha" maxlength="8px" required>
+            <input type="password" name="password" id="senha" placeholder="Confirme sua senha" maxlength="8px" required>
             <div>
-                <button>Cadastrar</button>
+                <button onclick="cadastrar()">Cadastrar</button>
             </div>
         </form>
         <div class="login-container">
