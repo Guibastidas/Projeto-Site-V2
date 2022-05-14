@@ -49,6 +49,14 @@ body {
     font-size: 1.4em;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1a1919;
+}
+
 .menu-nomes a{
     text-decoration: none;
 }
@@ -60,12 +68,18 @@ body {
     padding: 0;
 }
 
-div.quadrado {
+div.quadrado1 {
     display: inline-block;
     border: 2px solid black;
+    box-sizing: content-box;
     border-radius: 10px;
     background-color: white;
     width: 300px;
     height: 300px;
+    margin: 20px;
+    font-size: 2em;
+    text-align: center;
+    padding: 7px;
+    font-weight: bold;
 }
 
